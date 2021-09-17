@@ -1,3 +1,12 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 h1 {
 	font-family: 'Caveat', cursive;
 	color: #5b6959;
@@ -23,6 +32,12 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	line-height: 2;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	color: #5b6959;
 }
 
 body div {
