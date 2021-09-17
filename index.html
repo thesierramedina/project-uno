@@ -4,14 +4,59 @@
 	<meta charset="utf-8">
 	<title>GitHub Cheat Sheet</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 <h1>Starting Your GitHub</h1>
 <h2>How To Get Started</h2>
 	<div>
 		<p>
-			
+			You may be feeling overwhelmed... not to worry! It's not as hard once you get practice in and follow these steps word for word.
 		</p>
 	</div>
+<h2>Why GitHub?</h2>
+	<div>
+		<p>
+			This is an amazing opportunity to be able to troubleshoot, work collaboratively, and be able to track where issues in coding have occured! You're going to love the possibilites!
+		</p>
+	</div>
+<h2>Initializing Your Repository</h2>	
+	<div>
+		<p>
+			First you're going to hop onto your terminal and make sure that your folder is what is being selected. You can do this by typing cd and then dragging your folder into the empty space. It is really important to make sure that your local folder is connected to GitHub so that others can work remotely, and so that changes can be sent to the web. You can do this by running the command git init which will initialize the Git repo.
+		</p>
+	</div>
+<h2>Continuing Forward</h2>
+	<div>
+		<p>
+			You can always run git status to see what is going on in your working tree and what may need to be added, pushed, etc. Now you can add a README.md file to help track what you are doing. Run git add README.md to do this, and if you do <b> git add . <b> that will add everything you've added, but be careful you want to add it all!
+		</p>
+	</div>
+<h2>Committing Changes & More</h2>
+	<div>
+		<p>
+			Committing your changes makes sure that changes are documented, it represents and documents soemthing new you've added or revised. You can do this by running git commit -am "" with yourn own personal message within the quotation marks. Commits are saved locally.
+		</p>
+		<p>
+			You're also going to want to change the name of your branch from master to main, a new preference from GitHub. This can be done by running git branch -M main.
+		</p>
+	</div>
+<h2>Connecting Your Materials</h2>
+	<div>
+		<p>This is so important!!! After you are done with the previois steps you have to make sure that what is done remotely is connected to GitHub as the origin of your branch. After you create a repo there will be a link provided that starts with git remote add origin ..., copy and paste this into your terminal to connect them.</p>
+	</div>
+<h2>Pushing and Pulling</h2>
+	<div>
+		<p>
+			As you make changes remotely or directly on GitHub, you will want to be able to transfer your work. This is done by pushing (from local) or pulling (from Git to local). Depending on where you add code you will either run git push origin main, or git pull origin main. 
+		</p>
+	</div>
+<h2>Making Your Site Live</h2>
+	<div>
+		<p>This is exciting! You have some code! Now, you can connect your GitHub repo to Netlify and have a live site. But, you're going to need a personal token key to keep your code secure. Go ahead and <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" target="_blank">check out this link here</a> to get that done!</p>
+	</div>
 </body>
+<footer>Sierra Medina &copy 2021</footer>
 </html>
