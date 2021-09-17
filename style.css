@@ -9,3 +9,9 @@ h2 {
 p {
 	font-family: 'Lato', sans-serif;
 }
+
+div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
